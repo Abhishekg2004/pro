@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 3px  solid   #ccc;
+    border-color:aqua;
+    
+    position: absolute;
+    border-right: 1px;
+    border-left: 1px;
+    top: -4.0px;
+    left: 0px;
+    border-radius: 30px;
+    width: 91%;
+    height: 125px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+    
+}
+
+.container1{
+    width:30%;
+    top: 30px;
+    left: 500px;
+    border: 3px  solid   #ccc;
+    border-color:aqua;
+    background-color:rgba(255, 255, 255, 0.354);
+    box-shadow: blue;
+    position: absolute;
+    position: 50px;
+    
+    border-radius: 35px;
+
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container1:hover {
+    box-shadow: 0 0 30px rgb(26, 232, 7);
+
+}
+    
+
+
+.container2{
+    width: 130px;
+    height: 120px ;
+    top: 100px;
+    left: 160px;
+    border: 3px  solid;
+    
+    border-color:rgb(51, 255, 0);
+    
+    position: absolute;
+    position: 50px;
+    border-radius: 67px;
+    background-image: url('hacker.jpg');
+    background-size: 200px;
+    background-position: center;
+    
+    
+}
+.container2:hover{
+    box-shadow:0 0 30px blue;
+}
+.container h1{
+    width:  200px;
+    font-size: 50px;
+    color: rgb(127, 23, 127);
+    position: absolute;
+    left: 150px;
+    top: -15px;
+   padding-top: 25px;
+}
+.container a {
+    text-decoration: none;
+}
+.container a h2 {
+    position: absolute;
+    font-size: 24px;
+    color:whitesmoke;
+    top: 460px;
+    left: 190px;
+}
+.container h3 {
+    position: absolute;
+    top:430px ;
+    left: 135px;
+    color: white;
+}
+.input-container {
+    position: absolute;
+    top: 230px;
+    left: 115px;
+
+    
+    color: #e30a0a;
+    border: 10px;
+    border-color: blue;
+    background: transparent;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+.button-container{
+   
+    
+}
+.button-container button{
+    border: 10px;
+    color:white;
+    width: 100px;
+    background-color:blue;
+    
+    width: 100%;
+    top: 175px;
+    left: -14px;
+    width: 250px;
+    position: absolute;
+    height: 25px;
+    margin: px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+
+    
+}
+.heading-container  {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; 
+    color:blue;
+    font-size: 30px;
+    font-style: none;
+    left: -40px;
+}
+.background-container {
+    width: 100%;
+    height:641px;
+    background-image: url('a.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+input[type="text"],
+input[type="email or Mobile No"],
+input[type="password"]
+
+ {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.646);
+    outline: none;
+    border-color: none;
+    transition: border-color 0.3s ease;
+    color: black;
+    font-size: 15px;
+ }
+    
+

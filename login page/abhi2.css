@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 3px  solid   #ccc;
+    border-color:aqua;
+    
+    
+    position: absolute;
+    border-right: 1px;
+    border-left: 1px;
+    top: -4.0px;
+    left: 0px;
+    border-radius: 30px;
+    width: 410px;;
+    height: 132px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+    
+}
+.container1:hover {
+    box-shadow: 0 0 30px blue;
+
+}
+
+.container1{
+    width: 410px;
+    top: 30px;
+    left: 500px;
+    border: 3px  solid   #ccc;
+    border-color:aqua;
+    background-color: #f9f6f65a;
+    position: absolute;
+    position: 50px;
+    
+    border-radius: 35px;
+
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container2{
+    width: 130px;
+    height: 131px ;
+    top: -145px;
+    left: 45px;
+    border: 3px  solid;
+    
+    border-color:rgb(51, 255, 0);
+    
+    position: absolute;
+    position: 50px;
+    border-radius: 67px;
+    background-image: url('hacker.jpg');
+    background-size: 200px;
+    background-position: center;
+    
+    
+}
+.container2:hover{
+    box-shadow:0 0 30px blue;
+}
+
+.container h1{
+    width:  200px;
+    font-size: 50px;
+    color:blue;
+    position: absolute;
+    left: 150px;
+    top: -15px;
+   padding-top: 25px;
+}
+.container a h2 {
+    color: rgb(0, 255, 47);
+    font-size: 15px;
+    position: absolute;
+    top: 360px;
+    left: 225px;
+}
+
+
+   
+    
+
+.input-container {
+    position: absolute;
+    top: 250px;
+    left: 115px;
+    color: #e30a0a;
+    border: 10px;
+    border-color: blue;
+    background: transparent;
+    width: 50%;
+    border-radius: 30px;
+    
+}
+.button-container{
+   
+    
+}
+.button-container button{
+    border: 10px;
+    color:white;
+    width: 100px;
+    background-color:blue;
+    width: 100%;
+    height: 40%;
+    left: -35px;
+    width: 250px;
+    position: absolute;
+    height: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+
+    
+}
+.heading-container  {
+    position: relative;
+    width: 10%;
+    text-align: center;
+    margin-top: 20px; 
+    color:rgb(0, 255, 47);
+    font-size: 30px;
+    font-style: none;
+    left: -40px;
+}
+
+    
+
+.container1 { 
+
+}
+.container1 a {
+    
+
+
+}
+.container1 a h3 {
+position: absolute;
+top: 465px;
+left: 180px;
+color:white;
+font-size: 24px;
+margin: 1px;
+}
+.container1 h3 {
+    position: absolute;
+    top: 420px;
+    left: 135px;
+    color: white;
+}
+.background-container {
+    width:100%;
+    height: 641px;
+    background-image: url('a.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.646);
+    outline: none;
+    border-color: none;
+    transition: border-color 0.3s ease;
+    color:rgb(234, 19, 19);
+    font-size: 15px;
+}
